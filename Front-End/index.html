@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<style type="text/css">
+			#Header
+				{
+					display:table;
+					width: 100%;
+				}
+			h1
+			{
+					display: table-cell;
+					color: olivedrab;
+					text-align: center;
+					margin-right: auto;
+			}
+			#Logo
+				{	
+					display: table-cell;
+					height: 150px;
+					width: 200px;
+					padding:10px;
+				}
+			#Logo img 
+			{
+    				width: 100%;
+    				height: auto;
+			}
+
+			#NavBar li
+				{
+					display: inline-block;
+					color: olivedrab;
+					font-size: 23px;
+					padding-left: 75px;
+					padding-right: 75px;
+
+
+				}
+			#NavBar
+				{
+					border: 2px solid olivedrab;
+				}
+			#NavBar li:hover
+			{
+					color: orange;
+			}
+			#Title
+			{
+					position: relative;
+					top: -70px;
+
+			}
+
+			.products
+			{
+				height: 450px;
+				text-align: center;
+			}
+
+			.tile
+			{
+				height: 400px;
+				width: 300px;
+				display:inline-block;
+				margin: 50px;
+			}
+
+			.tile .productImage
+			{
+				height: 300px;
+				width: 300px;
+				overflow: hidden;
+				border-width: 5px;
+				border-style: solid;
+				border-color: olivedrab;
+				border-radius: 25px;
+				
+
+			}
+
+			.tile .productImage img
+			{
+				height: 100%;
+				width: 100%;
+				
+			}
+
+			.BuyButton
+			{
+				color:olivedrab;
+				text-decoration: none;
+			}
+
+			.BuyButton:hover
+			{
+				color:orange;
+			}
+
+			#productsLine2 .tile
+			{
+				margin-top: 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="Header">
+			<div id="Logo">
+				<img src="Logo.jpg">
+			</div>
+			<div id="Title">
+				<h1>Green Bean Coffee</h1>
+			</div>
+		</div>
+
+		<div id="NavBar">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Shop</li>
+					<li>FAQ</li>
+					<li>Map</li>
+					<li>Cart</li>
+				</ul>
+		</div>
+
+		<div id="productsLine1" class="products">
+
+			<div class="tile">
+				<div class="productImage">
+					<img src="product1.jpg">
+				</div>
+				<p class="productDetails"> 
+
+					<b>Description :</b> Shade Coffee<br>
+					<b>Price</b> £1.59 <br>
+					<a class="BuyButton" href="test.html" > <b>Buy Now</b> </a>
+				</p>
+			</div>
+
+			<div class="tile">
+				<div class="productImage">
+					<img src="product2.jpg">
+				</div>
+				<p class="productDetails"> 
+
+					<b>Description :</b> Shade Coffee #2<br>
+					<b>Price</b> £2.59 <br>
+					<a class="BuyButton" href="test.html" > <b>Buy Now</b> </a>
+				</p>
+			</div>
+
+			<div class="tile">
+				<div class="productImage">
+					<img src="product3.jpg">
+				</div>
+				<p class="productDetails"> 
+
+					<b>Description :</b> Shade Coffee #3<br>
+					<b>Price</b> £1.79 <br>
+					<a class="BuyButton" href="test.html" > <b>Buy Now</b> </a>
+				</p>
+			</div>
+
+		</div>
+
+		<div id="productsLine2" class="products">
+			<div class="tile">
+				<div class="productImage">
+					<img src="product4.jpg">
+				</div>
+				<p class="productDetails"> 
+
+					<b>Description :</b> Shade Coffee #4<br>
+					<b>Price</b> £1.29 <br>
+					<a class="BuyButton" href="test.html" > <b>Buy Now</b> </a>
+				</p>
+			</div>
+
+		</div>
+
+	</body>
+</html>
